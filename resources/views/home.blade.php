@@ -326,7 +326,7 @@
                                         <a class="btn btn-success btn-add-to-cart mt-2" onclick=""
                                             href="javascript:"><i class="fas fa-cart-arrow-down"></i></a>
                                         <a class="btn btn-outline-success btn-detail mt-2 font-weight-bold"
-                                            href=""> Xem chi tiết</a>
+                                            href="{{ url('showdetail/33') }}"> Xem chi tiết</a>
                                         <span class="badge badge-danger text-white">
                                             <h6>5%</h6>
                                         </span>

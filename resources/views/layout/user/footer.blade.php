@@ -1,7 +1,7 @@
   <!-- end body -->
   <!-- messinger -->
   <div class="hotro">
-    <a href="https://www.messenger.com/t/phuclb2306" class="mess mb-4" > 
+    <a href="https://www.messenger.com/t/n.hai21/" class="mess mb-4" > 
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Facebook_Messenger_logo_2018.svg/1024px-Facebook_Messenger_logo_2018.svg.png" style="width: 60px;" alt="liên hệ" >
     </a>
   </div>
@@ -51,15 +51,16 @@
   <div class="container mt-3 mb-3">
     <h5 class="text-uppercase font-weight-bold">About Website</h5>
     <p class="mb-0">Contact to:</p>
-    Email:  tsphuc.19it6@sict.udn.vn <br>
-            ndtan.19it6@sict.udn.vn <br>
+    Email:  lengochai.fit2019@gmail.com <br>
+            tdien1703@gmail.com <br> 
+            20211tt2559@mail.tdc.edu.vn <br>
        Phone:  +84834474225
 
 
       <!-- Social buttons -->
           <ul class="list-unstyled text-center ">
             <li class="list-inline-item">
-              <a href="https://www.facebook.com/phuclb2306" class="btn btn-outline-warning mx-1">
+              <a href="https://www.facebook.com/n.hai21/" class="btn btn-outline-warning mx-1">
                 <i class="fab fa-facebook-f"> </i>
                  
               </a>
@@ -81,7 +82,7 @@
       
         <!-- Copyright -->
         <div class="footer-copyright text-center py-2">© 2020 Copyright:
-          <a href="http://sict.udn.vn/" style="color: white;"> SICT-BWD</a>
+          <a href="#" style="color: white;"> Nhóm I</a>
         </div>
         <!-- Copyright -->
       
