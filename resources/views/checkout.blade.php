@@ -63,26 +63,23 @@
                   </tr>
                </thead>
                <tbody>
-                  @if (Session::has("Cart") != null)
-                  @foreach(Session::get('Cart')->products as $item)
                   <tr>
-                     <td> <img src="public/upload/{{ $item['productInfo']->productImage }}" style="vertical-align: middle;  width:80px;margin-right: 30px">
+                     <td> <img src="public/upload/cpu1.jpg" style="vertical-align: middle;  width:80px;margin-right: 30px">
                      </td>
                      <td>
-                        <p style="color: #4A235A;"><b>{{ $item['productInfo']->productName }}</b></p>
+                        <p style="color: #4A235A;"><b>CPU Intel Core i3-10105F + Quạt</b></p>
                      </td>
                      <td>
-                        <p class="font-italic">{{ number_format($item['productInfo']->listPrice) }}₫</p>
+                        <p class="font-italic">1.790.000 VNĐ</p>
                      </td>
                      <td>
                         <p><b>{{ $item['quanty'] }}</b></p>
                      </td>
                      <td>
-                        <p style="color: #4A235A;"><b>{{ number_format($item['price']) }}₫</b>
+                        <p style="color: #4A235A;"><b>1.790.000 VNĐ</b>
                         <p>
                      </td>
                   </tr>
-                  @endforeach
                   <tr>
                      <td colspan="4">&nbsp;
                         <span>
@@ -95,7 +92,7 @@
                            <tbody>
                               <tr>
                                  <td class="font-weight-bold text-info">Tổng tiền :</td>
-                                 <td class="font-italic text-danger"><h5>{{number_format(Session::get('Cart')->totalPrice)}}₫</h5></td>
+                                 <td class="font-italic text-danger"><h5>1.790.000 VNĐ</h5></td>
                               </tr>
                               <tr>
                                  <td>
@@ -122,7 +119,6 @@
                         </table>
                      </td>
                   </tr>
-                  @else
                   <tr style="color: #4A235A;">
                      <td>Bạn chưa có sản phẩm trong giỏ hàng</td>
                   </tr>
@@ -131,7 +127,6 @@
                         <a class="btn btn-default update" href="{{ url('/')}}">Mua hàng</a>
                      </td>
                   </tr>
-                  @endif
                </tbody>
             </table>
          </div>

@@ -31,7 +31,7 @@
 <!-- Bootstrap theme -->
 <link rel="stylesheet" href="{{ asset('public/frontend/alertifyjs/css/themes/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('public/frontend/swiper/css/swiper.min.css') }}">
-<link rel="stylesheet" href="{{ asset('public/frontend/swiper/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('public/frontend/swiper/style.css') }}">
 
     
     <title>Website cung cấp linh kiện máy tính</title>
